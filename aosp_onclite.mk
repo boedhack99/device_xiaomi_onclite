@@ -32,10 +32,10 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7
 PRODUCT_MANUFACTURER := Xiaomi
 
-BUILD_FINGERPRINT := "Xiaomi/onclite/onclite:9/PKQ1.181021.001/V10.2.8.0.PFLEUXM:user/release-keys"
+BUILD_FINGERPRINT := "xiaomi/onclite/onclite:9/PKQ1.181021.001/V10.3.4.0.PFLCNXM:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="onclite-user 9 PKQ1.181021.001 V10.2.8.0.PFLEUXM release-keys" \
+    PRIVATE_BUILD_DESC="onclite-user 9 PKQ1.181021.001 V10.3.4.0.PFLEUXM release-keys" \
     PRODUCT_NAME="onclite" \
     TARGET_DEVICE="onclite"
 
