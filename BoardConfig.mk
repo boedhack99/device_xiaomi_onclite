@@ -62,11 +62,9 @@ ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm632
 endif
 
-# Prebuilt
-BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/mkbootimg.mk
-TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
-PRODUCT_COPYFILES += \
-    $(DEVICE_PATH)/prebuilt/kernel:$(PRODUCT_OUT)/kernel
+# Platform
+#TARGET_BOARD_PLATFORM := msm8953
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno506
 
 # Audio
 USE_XML_AUDIO_POLICY_CONF := 1
