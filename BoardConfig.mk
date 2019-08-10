@@ -19,6 +19,9 @@ BOARD_VENDOR := xiaomi
 
 DEVICE_PATH := device/xiaomi/onclite
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := onclite,onc
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
