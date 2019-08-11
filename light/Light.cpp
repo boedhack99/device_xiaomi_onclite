@@ -22,8 +22,8 @@
 
 #include <fstream>
 
-#define LCD_LED         "/sys/class/backlight/panel0-backlight/"
-#define WHITE_LED       "/sys/class/leds/white/"
+#define LCD_LED         "/sys/class/leds/lcd-backlight/brightness" // Correct path for Redmi 7/Y3
+#define WHITE_LED       "/sys/class/leds/white/" // ? wrong path, maybe triggering by GPIO
 
 #define BREATH          "breath"
 #define BRIGHTNESS      "brightness"
@@ -47,7 +47,11 @@ static void set(std::string path, std::string value) {
 }
 
 static void set(std::string path, int value) {
-    set(path, std::to_string(value));
+     if(value != 0){
+             set(path, std::to_string(value));
+     } else {
+             ALOGW("handle to write %s for brightness", value);
+     }
 }
 
 static uint32_t getBrightness(const LightState& state) {
