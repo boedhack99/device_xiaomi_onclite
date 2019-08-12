@@ -15,8 +15,3 @@
 
 # Power HAL
 /system/lib64/hw/power\.qcom\.so    u:object_r:vendor_file:s0
-
-# LiveDisplay HAL
-/(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@2\.0-service-legacymm u:object_r:hal_lineage_livedisplay_default_exec:s0
-/(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@2\.0-service-sdm u:object_r:hal_lineage_livedisplay_default_exec:s0
-/(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@2\.0-service-sysfs u:object_r:hal_lineage_livedisplay_default_exec:s0
