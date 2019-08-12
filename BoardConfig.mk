@@ -63,12 +63,6 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_PATH := $(PWD)/vendor/qcom/sdclang/6.0/prebuilt/linux-x86_64/bin
 TARGET_KERNEL_VERSION := 4.9
 
-# Prebuilt
-BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/mkbootimg.mk
-TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
-PRODUCT_COPYFILES += \
-    $(DEVICE_PATH)/prebuilt/kernel:$(PRODUCT_OUT)/kernel
-
 # Audio
 AUDIO_FEATURE_ENABLED_ANC_HEADSET := true
 AUDIO_FEATURE_ENABLED_ALAC_OFFLOAD := true
