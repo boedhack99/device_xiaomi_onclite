@@ -50,7 +50,7 @@ static void set(std::string path, int value) {
      if(value != 0){
              set(path, std::to_string(value));
      } else {
-             ALOGW("handle to write %s for brightness", value);
+             ALOGW("handle to write %d for brightness", value);
      }
 }
 
