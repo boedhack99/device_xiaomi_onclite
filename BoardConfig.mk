@@ -156,6 +156,7 @@ USE_DEVICE_SPECIFIC_GPS := true
 TARGET_NO_RPC := true
 
 # HIDL
+DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/framework_compatibility_matrix.xml
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
 
