@@ -20,7 +20,3 @@ Storage | 16/32/64 GB
 Battery | Non-removable Li-Po 4000 mAh battery
 Display | 720 x 1520 pixels, 19:9 ratio, 6.26 inches, IPS LSD (~269 ppi density)
 Camera  | 12MP, f/2.2, 1.25µm, PDAF, flashlight, HDR; 1080p@30/60fps
-
-## Device picture
-
-![Redmi 7](https://xiaomi-mi.com/uploads/CatalogueImage/pvm_pms_1552546260.27569839_17432_1553006114.jpg "Redmi 7 in red")
