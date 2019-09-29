@@ -56,10 +56,9 @@ BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE :=  2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
-TARGET_KERNEL_CONFIG := onclite-perf_defconfig#
+TARGET_KERNEL_CONFIG := onclite-perf_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm632
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
-TARGET_KERNEL_CLANG_COMPILE := true
 
 # Audio
 AUDIO_FEATURE_ENABLED_ANC_HEADSET := true
@@ -194,7 +193,7 @@ TARGET_HAS_NO_WLAN_STATS := true
 
 # Qualcomm
 BOARD_USES_QCOM_HARDWARE := true
-TARGET_USE_SDCLANG := true
+#TARGET_USE_SDCLANG := true
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
