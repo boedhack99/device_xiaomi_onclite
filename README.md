@@ -1,4 +1,5 @@
-(https://camo.githubusercontent.com/40f75261cc739bc730aa396c6cef873ff0afe36a/68747470733a2f2f692e696d6775722e636f6d2f426f634a6a45642e706e67)
+![ViperOS](https://i.imgur.com/BocJjEd.png)
+
 ViperOS Device configuration for Redmi 7/Y3
 ===========================================
 
