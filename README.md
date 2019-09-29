@@ -1,9 +1,7 @@
-Copyright (C) 2019 The PixelExperience Project
+ViperOS Device configuration for Redmi 7/Y3
+===========================================
 
-Device configuration for Redmi 7
-=========================================
-
-The Redmi 7 (codenamed _"onclite"_) is a  smartphone from Redmi.
+The Redmi 7 (codenamed "onclite") is a smartphone from Redmi.
 
 It was announced in March 2019. Release date was March 2019.
 
