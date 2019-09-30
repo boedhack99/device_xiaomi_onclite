@@ -1,7 +1,5 @@
-![ViperOS](https://i.imgur.com/BocJjEd.png)
-
-ViperOS Device configuration for Redmi 7/Y3
-===========================================
+LineageOS Device configuration for Redmi 7/Y3
+=============================================
 
 The Redmi 7 (codenamed "onclite") is a smartphone from Redmi.
 
