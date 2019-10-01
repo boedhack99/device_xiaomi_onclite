@@ -1,3 +1,9 @@
+<p align="center">
+
+<img src="https://github.com/PixysOS/manifest/blob/pie/raw/pixys.png" >
+
+</p>
+
 PixysOS Device configuration for Redmi 7/Y3
 ===========================================
 
