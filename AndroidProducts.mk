@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixys_onclite.mk
+    $(LOCAL_DIR)/lineage_onclite.mk
