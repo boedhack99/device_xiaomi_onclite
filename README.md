@@ -1,4 +1,4 @@
-![ViperOS](https://i.imgur.com/BocJjEd.png)
+![Evolution X](https://github.com/Evolution-X/platform_manifest/raw/pie/EvoBanner.png)
 
 ViperOS Device configuration for Redmi 7/Y3
 ===========================================
