@@ -1,6 +1,6 @@
 ![Evolution X](https://github.com/Evolution-X/platform_manifest/raw/pie/EvoBanner.png)
 
-ViperOS Device configuration for Redmi 7/Y3
+EvolutionX Device configuration for Redmi 7/Y3
 ===========================================
 
 The Redmi 7 (codenamed "onclite") is a smartphone from Redmi.
